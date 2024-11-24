@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Michroma&family=Sriracha&display=swap');
+.sriracha-regular {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.tagcloud-wrap {
+  // background: gray;
+  float: right;
+  width: 53%;
+  height: 115%;
+  margin-top: -3%;
+
+  .tagcloud {
+    color: #00F3D2;
+    font-family: "Sriracha", cursive;
+    font-size: 20px;
+    font-weight: 650;
+    margin: 10% auto;
+  }
+  .tagcloud--item:hover {
+    color: #00d3b7;
+  }
+}
